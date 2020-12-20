@@ -10,7 +10,7 @@ module ChatApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
-    config.genarators do |g|
+    config.generators do |g|
       g.sytlesheets false
       g.javascripts false
       g.helper false
